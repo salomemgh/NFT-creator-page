@@ -54,6 +54,8 @@ body{
 }
 .prof_mobile{
     margin-top: 185px !important;
+    border-radius: 20px;
+    border: 2px solid hsla(0, 0%, 17%, 1);
 }
 .text{
     margin-top: 50px;
