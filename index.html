@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT  creator page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!--navigation, burger menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark p-4">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="https://nft-home-page-kappa.vercel.app/">
+                <img src="./Storefront.png">
+                NFT Marketplace
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav1">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 12C3 11.5858 3.33579 11.25 3.75 11.25H20.25C20.6642 11.25 21 11.5858 21 12C21 12.4142 20.6642 12.75 20.25 12.75H3.75C3.33579 12.75 3 12.4142 3 12Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 6C3 5.58579 3.33579 5.25 3.75 5.25H15C15.4142 5.25 15.75 5.58579 15.75 6C15.75 6.41421 15.4142 6.75 15 6.75H3.75C3.33579 6.75 3 6.41421 3 6Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 18C3 17.5858 3.33579 17.25 3.75 17.25H15C15.4142 17.25 15.75 17.5858 15.75 18C15.75 18.4142 15.4142 18.75 15 18.75H3.75C3.33579 18.75 3 18.4142 3 18Z" fill="white"/>
+                      </svg>
+                </span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="nav1">
+                <ul class="navbar-nav ms-auto gap-4">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link marketplace text-white">
+                            Marketplace
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">
+                            Rankings
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">
+                            Connect a wallet
+                        </a>
+                    </li>
+    
+                    <a href="#">
+                        <button type="button" class="button_navigation gap-2">
+                            <img src="./User.png" style="background: none;">
+                            Sign Up
+                        </button>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--Cover & profile image for DESKTOP-->
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12 position-relative d-none d-md-block"
+            style="background-image: url(./Image\ PlaceHolder.png); height: 320px;
+            background-repeat: no-repeat; background-size: cover;">
+                <img src="./Avatar Placeholder.png" class="photo_avatar position-absolute">
+            </div>
+
+            <!--Cover & profile for MOBILE-->
+            <div class="col-12 d-block d-md-none"
+            style="background: url(Image\ PlaceHolder\ mob.png); height: 250px;
+            background-size: cover; background-repeat: no-repeat; position: relative;">
+                <div class="d-flex justify-content-center">
+                    <img src="./Avatar mobile.png" class="prof_mobile position-absolute">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!--user, Bio, Links For DESKTOP-->
+    <div class="container mt-5 d-none d-md-block">
+
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-between align-items-center">
+                <div class="text">
+                    <p class="p_animakid">Animakid</p>
+                </div>
+
+                <div class="d-flex gap-3">
+                    <button type="button" class="btn btn_purple3">
+                        <img src="./Copy.png" alt="copy_icon">
+                        <a href="#" class="a_link1 ps-2">0xc0E3...B79C</a>
+                    </button>
+                    <button type="button" class="btn btn_purple4">
+                        <img src="Plus.png" alt="plus_icon">
+                        <a href="#" class="a_link1 ps-2">Follow</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-5 d-flex justify-content-between">
+                <div>
+                    <h4 class="h4_text">250k+</h4>
+                    <p class="p_paragraph">Volume</p>
+                </div>
+                <div>
+                    <h4 class="h4_text">50+</h4>
+                    <p class="p_paragraph">NFTs Sold</p>
+                </div>
+                <div>
+                    <h4 class="h4_text">3000+</h4>
+                    <p class="p_paragraph">Followers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-1">
+                <p class="p_bio">Bio</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5">
+                <p class="p_internet">The internet's friendliest designer kid.</p>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-2">
+                <h5 class="h5_links">Links</h5>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-4 d-flex gap-3">
+                <div>
+                    <img src="./1Globe.png">
+                </div>
+                <div>
+                    <img src="./2DiscordLogo.png">
+                </div>
+                <div>
+                    <img src="./3YoutubeLogo.png">
+                </div>
+                <div>
+                    <img src="./4TwitterLogo.png">
+                </div>
+                <div>
+                    <img src="./5InstagramLogo.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+<!--User,bio,links For MOBILE-->
+<div class="container ps-4 pe-4 mt-5 d-md-none d-block">
+
+    <div class="row">
+        <div class="col-12">
+            <div class="text">
+                <p class="p_animakid_mob ps-3">Animakid</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-12 d-flex justify-content-center">
+            <button type="button" class="btn btn_purple3_mob">
+                <img src="./Copy.png" alt="copy_icon">
+                <a href="#" class="a_link1 ps-2">0xc0E3...B79C</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12 d-flex justify-content-center">
+            <button type="button" class="btn btn_purple4_mob">
+                <img src="Plus.png" alt="plus_icon">
+                <a href="#" class="a_link1 ps-2">Follow</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-4 p-3">
+        <div class="col-4">
+            <h4 class="h4_text_mob">250k+</h4>
+            <p class="p_paragraph_mob">Volume</p>
+        </div>
+        <div class="col-4">
+            <h4 class="h4_text_mob">50+</h4>
+            <p class="p_paragraph_mob">NFTs Sold</p>
+        </div>
+        <div class="col-4">
+            <h4 class="h4_text_mob">3000+</h4>
+            <p class="p_paragraph_mob">Followers</p>
+        </div>
+    </div>
+
+    <div class="row ps-3">
+        <div class="col-2">
+            <p class="p_bio_mob">Bio</p>
+        </div>
+    </div>
+
+    <div class="row ps-3">
+        <div class="col-12">
+            <p class="p_internet_mob">The internet's friendliest designer kid.</p>
+        </div>
+    </div>
+
+    <div class="row mt-3 ps-3">
+        <div class="col-2">
+            <h5 class="h5_links_mob">Links</h5>
+        </div>
+    </div>
+
+    <div class="row mt-2 ps-3">
+        <div class="col-7 d-flex gap-2">
+            <div>
+                <img src="./1Globe.png" width="24" height="24">
+            </div>
+            <div>
+                <img src="./2DiscordLogo.png" width="24" height="24">
+            </div>
+            <div>
+                <img src="./3YoutubeLogo.png" width="24" height="24">
+            </div>
+            <div>
+                <img src="./4TwitterLogo.png" width="24" height="24">
+            </div>
+            <div>
+                <img src="./5InstagramLogo.png" width="24" height="24">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--Created,owned,Collection, Badges For DESKTOP-->
+    <div class="container-fluid d-md-block d-none">
+        <hr class="hr_1 mt-5">
+    </div>
+
+    <div class="container d-md-block d-none">
+        <div class="row align-items-center justify-content-around mt-4">
+            <div class="col-md-3 border-bottom border-secondary">
+                <h5 class="h5_created">
+                    Created
+                    <span class="badge badge1 numb ms-2">302</span>
+                </h5>
+            </div>
+            <div class="col-md-3">
+                <h5 class="h5_owned">
+                    owned
+                    <span class="badge numb badge2 ms-2">67</span>
+                </h5>
+            </div>
+            <div class="col-md-3">
+                <h5 class="h5_owned">
+                    Collection
+                    <span class="badge numb badge3 ms-2">4</span>
+                </h5>
+            </div>
+        </div>
+    </div>
+
+<!--Created,owned,Collection For MOBILE-->
+    <div class="container-fluid d-md-none d-block mt-5">
+        <hr class="hr_1_mobile">
+    </div>
+
+    <div class="container d-md-none d-block">
+        <div class="row justify-content-center gap-2">
+            <div class="col-3 border-bottom border-secondary">
+                <h5 class="h5_created_mob mb-4">
+                    Created
+                </h5>
+            </div>
+            <div class="col-3">
+                <h5 class="h5_owned_mob">
+                    owned
+                </h5>
+            </div>
+            <div class="col-3">
+                <h5 class="h5_owned_mob">
+                    Collection
+                </h5>
+            </div>
+        </div>
+    </div>
+
+<!--cards fot DESKTOP-->
+    <div class="container-fluid d-md-block d-none"
+         style="background: hsla(0, 0%, 23%, 1);">
+        <div class="container">
+<!--cards row_1-->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card_1">
+                        <img src="e1.png">
+                        <div class="card-body ps-4">
+                            <h4 class="card-title title2 pt-2">Distant Galaxy</h4>
+                            <div class="d-flex gap-3 mt-3">
+                                <img src="./Avatar.png">
+                                <p class="card-text card_text">Animakid</p>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Price</p>
+                                        <p class="price_e">1.63 ETH</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 text-end pe-3">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                        <p class="price_e">0.33 wETH</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card card_1">
+                        <img src="e2.png">
+                        <div class="card-body ps-4">
+                            <h4 class="card-title title2 pt-2">Life On Edena</h4>
+                            <div class="d-flex gap-3 mt-3">
+                                <img src="./Avatar.png">
+                                <p class="card-text card_text">Animakid</p>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Price</p>
+                                        <p class="price_e">1.63 ETH</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 text-end">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                        <p class="price_e">0.33 wETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4">
+                    <div class="card card_1">
+                        <img src="e3.png">
+                        <div class="card-body ps-4">
+                            <h4 class="card-title title2 pt-2">AstroFiction</h4>
+                            <div class="d-flex gap-3 mt-3">
+                                <img src="./Avatar.png">
+                                <p class="card-text card_text">Animakid</p>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Price</p>
+                                        <p class="price_e">1.63 ETH</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 text-end pe-3">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                        <p class="price_e">0.33 wETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--cards row_2 -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card_1">
+                        <img src="./cryptocity.png">
+                        <div class="card-body ps-4">
+                            <h4 class="card-title title2 pt-2">CryptoCity</h4>
+                            <div class="d-flex gap-3 mt-3">
+                                <img src="./Avatar.png">
+                                <p class="card-text card_text">Animakid</p>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Price</p>
+                                        <p class="price_e">1.63 ETH</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 text-end pe-3">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                        <p class="price_e">0.33 wETH</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card card_1">
+                        <img src="./ColorfulDog 0524.png">
+                        <div class="card-body ps-4">
+                            <h4 class="card-title title2 pt-2">ColorfulDog 0524</h4>
+                            <div class="d-flex gap-3 mt-3">
+                                <img src="./Avatar.png">
+                                <p class="card-text card_text">Animakid</p>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Price</p>
+                                        <p class="price_e">1.63 ETH</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 text-end">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                        <p class="price_e">0.33 wETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4">
+                    <div class="card card_1">
+                        <img src="./Space Tales.png">
+                        <div class="card-body ps-4">
+                            <h4 class="card-title title2 pt-2">Space Tales</h4>
+                            <div class="d-flex gap-3 mt-3">
+                                <img src="./Avatar.png">
+                                <p class="card-text card_text">Animakid</p>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Price</p>
+                                        <p class="price_e">1.63 ETH</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 text-end pe-3">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                        <p class="price_e">0.33 wETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!--cards row_3-->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card_1">
+                        <img src="./Cherry Blossom Girl 037.png">
+                        <div class="card-body ps-4">
+                            <h4 class="card-title title2 pt-2">Cherry Blossom Girl 037</h4>
+                            <div class="d-flex gap-3 mt-3">
+                                <img src="./Avatar.png">
+                                <p class="card-text card_text">Animakid</p>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Price</p>
+                                        <p class="price_e">1.63 ETH</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 text-end pe-3">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                        <p class="price_e">0.33 wETH</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card card_1">
+                        <img src="./dancing robots.png">
+                        <div class="card-body ps-4">
+                            <h4 class="card-title title2 pt-2">Dancing Robots 0987</h4>
+                            <div class="d-flex gap-3 mt-3">
+                                <img src="./Avatar.png">
+                                <p class="card-text card_text">Animakid</p>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Price</p>
+                                        <p class="price_e">1.63 ETH</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 text-end">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                        <p class="price_e">0.33 wETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-4">
+                    <div class="card card_1">
+                        <img src="./IceCream Ape .png">
+                        <div class="card-body ps-4">
+                            <h4 class="card-title title2 pt-2">IceCream Ape </h4>
+                            <div class="d-flex gap-3 mt-3">
+                                <img src="./Avatar.png">
+                                <p class="card-text card_text">Animakid</p>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Price</p>
+                                        <p class="price_e">1.63 ETH</p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6 text-end pe-3">
+                                    <div>
+                                        <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                        <p class="price_e">0.33 wETH</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+            <div class="row mt-5">
+                <hr class="border_t1 mt-5">
+            </div>
+    </div>
+
+<!--Cards For MOBILE-->
+
+<div class="container-fluid d-md-none d-block"
+     style="background: hsla(0, 0%, 23%, 1);">
+
+<!--card row_1 Mobile-->
+    <div class="row justify-content-center">
+        <div class="col-11">
+            <div class="card card_1_mob">
+                <img src="./e1_mob.png">
+                <div class="card-body ps-3">
+                    <h4 class="card-title title2 pt-2">Distant Galaxy</h4>
+                    <div class="d-flex gap-3 mt-3">
+                        <img src="./Avatar mobile2.png">
+                        <p class="card-text card_text">Animakid</p>
+                    </div>
+                    
+                    <div class="row justify-content-between align-items-end">
+                        <div class="col-4">
+                            <div>
+                                <p class="mb-2 pt-4 card_price">Price</p>
+                                <p class="price_e_mobile">1.63 ETH</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 mb-0 text-end">
+                            <div>
+                                <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                <p class="price_e_mobile">0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!--card row_2 Mobile-->
+    <div class="row justify-content-center">
+        <div class="col-11">
+            <div class="card card_1_mob">
+                <img src="./e2_mob.png">
+                <div class="card-body ps-3">
+                    <h4 class="card-title title2 pt-2">Life on Edena</h4>
+                    <div class="d-flex gap-3 mt-3">
+                        <img src="./Avatar mobile2.png">
+                        <p class="card-text card_text">Animakid</p>
+                    </div>
+                    
+                    <div class="row justify-content-between align-items-end">
+                        <div class="col-4">
+                            <div>
+                                <p class="mb-2 pt-4 card_price">Price</p>
+                                <p class="price_e_mobile">1.63 ETH</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 mb-0 text-end">
+                            <div>
+                                <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                <p class="price_e_mobile">0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!--card row_3 Mobile-->
+    <div class="row justify-content-center">
+        <div class="col-11">
+            <div class="card card_1_mob">
+                <img src="./e3_mob.png">
+                <div class="card-body ps-3">
+                    <h4 class="card-title title2 pt-2">AstroFiction</h4>
+                    <div class="d-flex gap-3 mt-3">
+                        <img src="./Avatar mobile2.png">
+                        <p class="card-text card_text">Animakid</p>
+                    </div>
+                    
+                    <div class="row justify-content-between align-items-end">
+                        <div class="col-4">
+                            <div>
+                                <p class="mb-2 pt-4 card_price">Price</p>
+                                <p class="price_e_mobile">1.63 ETH</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6 mb-0 text-end">
+                            <div>
+                                <p class="mb-2 pt-4 card_price">Highest Bid</p>
+                                <p class="price_e_mobile">0.33 wETH</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-12 mt-2">
+            <hr class="border_t1_mob">
+        </div>
+    </div>
+</div>
+
+
+<!--footer for desktop-->
+<div class="container-fluid d-md-block d-none"
+        style="background: hsla(0, 0%, 23%, 1); height: 400px;">
+        <div class="container">
+            <div class="row row_space justify-content-center">
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="./Storefront.png">
+                            <span class="footer_header ps-1">NFT Marketplace</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="footer_text mt-4">
+                                NFT marketplace UI created<br> with Anima for Figma.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="footer_text mt-3">Join our community</p>
+                        </div>
+                    </div>
+                    <div class="row gap-2">
+                        <div class="col-md-1">
+                            <img src="./DiscordLogo.png">
+                        </div>
+                        <div class="col-md-1">
+                            <img src="./YoutubeLogo.png">
+                        </div>
+                        <div class="col-md-1">
+                            <img src="./TwitterLogo.png">
+                        </div>
+                        <div class="col-md-1">
+                            <img src="./InstagramLogo.png">
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <h5 class="footer_header mb-4">Explore</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a class="footer_text a_text" href="#">Marketplace</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a class="footer_text a_text" href="#">Rankings</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <a class="footer_text a_text" href="#">Connect a wallet</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5 class="footer_header mb-4">
+                                Join our weekly digest
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <p class="footer_text">
+                                Get exclusive promotions & updates<br> straight to your inbox.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12 position-relative">
+                            <input class="email1 ps-3" type="email" placeholder="Enter your email here">
+                            <button type="button" class="button3_mobile position-absolute end-0">
+                                <img src="./EnvelopeSimple.png">
+                                <a class="button_subscribe ps-1" href="#">Subscribe</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+            <hr class="hr_footer mt-5">
+            <div class="row">
+                <div class="col-md-12 ms-3">
+                    <p class="copyR_footer mt-3">
+                        Ⓒ NFT Market. Use this template freely.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--footer for mobile-->
+<div class="container-fluid d-block d-md-none"
+style="background: hsla(0, 0%, 23%, 1); height: 100%;">
+<div class="container">
+    <div class="row row_space justify-content-center">
+
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="./Storefront.png">
+                    <span class="footer_header ps-1">NFT Marketplace</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="footer_text mt-4">
+                        NFT marketplace UI created with Anima<br>for Figma.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="footer_text mt-1">Join our community</p>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-10 d-flex gap-3">
+                    <img src="./DiscordLogo.png">
+                    <img src="./YoutubeLogo.png">
+                    <img src="./TwitterLogo.png">
+                    <img src="./InstagramLogo.png">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-2">
+                    <h5 class="footer_header mb-4 mt-4">Explore</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <a class="footer_text a_text" href="#">Marketplace</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <a class="footer_text a_text" href="#">Rankings</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <a class="footer_text a_text" href="#">Connect a wallet</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5 class="footer_header mt-4 mb-4">
+                        Join our weekly digest
+                    </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10">
+                    <p class="footer_text">
+                        Get exclusive promotions & updates<br> straight to your inbox.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+                <div class="col-12 mt-3">
+                    <input class="input_mail ps-3" type="email" placeholder="Enter Your Email Address">
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-12 mt-3">
+                    <button type="button" class="button_subscribe_mobile">
+                        <img src="./EnvelopeSimple.png">
+                        <a class="button_subscribe ps-1" href="#">Subscribe</a>
+                    </button>
+                </div>
+            </div>
+
+    </div>
+    <hr class="hr_footer">
+    <div class="row">
+        <div class="col-12 ms-1">
+            <p class="copyR_footer pt-3">
+                Ⓒ NFT Market. Use this template freely.
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>

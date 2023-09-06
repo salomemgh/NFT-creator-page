@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    background: #2B2B2B !important;
+}
+@font-face {
+    font-family: Work Sans;
+    src: url(./WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: Space Mono;
+    src: url(./SpaceMono-Regular.ttf);
+}
+.nft_brand{
+    color: #fff;
+}
+.nav-link{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+    .marketplace{
+        margin-top: 20px;
+    }
+}
+.nav-item{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+.button_navigation{
+    border: none;
+    width: 152px;
+    height: 60px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.photo_avatar{
+    bottom: -65px;
+    left: 75px;
+    border-radius: 20px;
+    border: 2px solid hsla(0, 0%, 17%, 1);
+}
+.prof_mobile{
+    margin-top: 185px !important;
+}
+.text{
+    margin-top: 50px;
+}
+.p_animakid, .p_animakid_mob{
+    color: var(--White, #FFF);
+    font-family: Work Sans;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.p_animakid_mob{
+    font-size: 28px !important;
+}
+.btn_purple3, .btn_purple3_mob{
+    width: 186px;
+    height: 60px;
+    background: hsla(266, 100%, 67%, 1) !important;
+    border-radius: 20px !important;
+}
+.btn_purple3_mob{
+    width: 315px !important;
+    height: 60px !important;
+}
+.btn_purple4, .btn_purple4_mob{
+    width: 145px;
+    height: 60px;
+    border-radius: 20px !important;
+    border: 2px solid hsla(266, 100%, 67%, 1) !important;
+}
+.btn_purple4_mob{
+    width: 315px;
+    height: 60px;
+}
+.a_link1{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.h4_text, .h4_text_mob{
+    color: var(--White, #FFF);
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.h4_text_mob{
+    font-size: 22px !important;
+}
+.p_paragraph, .p_paragraph_mob{
+    color: var(--White, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.p_paragraph_mob{
+    font-size: 16px !important;
+}
+.p_bio, .p_bio_mob{
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.p_bio_mob{
+    font-size: 16px;
+}
+.p_internet, .p_internet_mob{
+    color: var(--White, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.p_internet_mob{
+    font-size: 16px;
+}
+.h5_links, .h5_links_mob{
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.h5_links_mob{
+    font-size: 16px !important;
+}
+.hr_1{
+    height: 1px;
+    color: hsla(0, 0%, 23%, 1) !important;
+}
+.hr_1_mobile{
+    height: 2px;
+    color: hsla(0, 0%, 23%, 1) !important;
+}
+.badge1{
+    width: 50px;
+    height: 32px;
+    background: hsla(60, 0%, 52%, 1);
+    border-radius: 20px !important;
+}
+.h5_created, .h5_created_mob{
+    color: var(--White, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+.h5_created_mob{
+    font-size: 16px !important;
+}
+.numb{
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.h5_owned, .h5_owned_mob{
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.h5_owned_mob{
+    font-size: 16px !important;
+}
+.badge2, .badge3{
+    width: 40px;
+    height: 30px;
+    border-radius: 20px !important;
+    background: var(--Background---Secondary, #3B3B3B);
+}
+.badge3{
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.title2{
+    color: var(--white, #FFF) !important;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.card_text {
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card_price{
+    color: #858584 !important;
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.price_e, .price_e_mobile{
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.price_e_mobile{
+    font-size: 12px !important;
+}
+
+.card_1, .card_1_mob{
+    margin-top: 80px;
+    border: none !important;
+    border-top-left-radius: 40px !important;
+    border-top-right-radius: 40px !important;
+    background: hsla(0, 0%, 17%, 1) !important;
+    border-radius: 30px !important;
+}
+.card_1_mob{
+    margin-top: 30px !important;
+}
+
+.hr_footer{
+    border: 1px solid hsla(60, 0%, 52%, 1) !important;
+}
+.border_t1{
+    margin-top: 40px;
+    border: 1px solid hsla(0, 0%, 17%, 1) !important;
+}
+.border_t1_mob{
+    border: 1px solid hsla(0, 0%, 17%, 1) !important;
+}
+
+
+
+/*footer style*/
+.row_space{
+    padding-top: 50px;
+}
+.footer_header{
+    color: #FFF;
+
+font-family: Space Mono;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+text-transform: capitalize;
+}
+.footer_text{
+    color: #CCC;
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.a_text{
+    line-height: 40px;
+    text-decoration: none;
+}
+.copyR_footer{
+    color: #CCC;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.button_subscribe{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.input_mail{
+    width: 315px;
+    height: 46px;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid var(--caption-label-text, #858584);
+    background: var(--text, #FFF);
+
+    color: var(--background, #2B2B2B);
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.button_subscribe_mobile{
+    width: 315px;
+    height: 46px;
+    border-radius: 20px;
+    border: none;
+    background: var(--call-to-action, #A259FF);
+}
+.email1{
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    color: var(--background, #2B2B2B);
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.button3, .button3_mobile{
+    width: 211px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    background: var(--call-to-action, #A259FF);
+    position: absolute;
+    margin-right: 40px;
+}
+.button3_mobile{
+    margin-right: 10px !important;
+}
+
+.button_subscribe{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
