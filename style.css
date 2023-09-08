@@ -48,7 +48,7 @@ body{
 }
 .photo_avatar{
     bottom: -65px;
-    left: 75px;
+    left: 125px;
     border-radius: 20px;
     border: 2px solid hsla(0, 0%, 17%, 1);
 }
